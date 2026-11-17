@@ -81,7 +81,7 @@ header::before {
     font-size: 35px;
     color: #e1522b;
     text-shadow: 2px 2px 3px #ebaf9f;
-    font-weight: lighter;
+    font-weight: normal;
     font-style: oblique;
 }
 
@@ -151,7 +151,7 @@ header::before {
     -webkit-text-stroke: 0.5px var(--galaxy);
     letter-spacing: 3px;
     font-size: 20px;
-    font-weight: lighter;
+    font-weight: normal;
     margin-bottom: 10px;
 }
 
@@ -160,13 +160,13 @@ header::before {
     color: var(--sky);
     line-height: 1.2;
     text-shadow: 4px 4px 5px var(--galaxy);
-    font-weight: lighter;
+    font-weight: normal;
     padding: 10px;
 }
 
 .balay h3 {
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: normal;
     letter-spacing: 0.5px;
     margin: 10px 0;
     color: var(--meteor);
