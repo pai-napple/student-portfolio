@@ -156,7 +156,7 @@ header::before {
 }
 
 .balay h1 {
-    font-size: clamp(65px, 30vw, 120px);
+    font-size: clamp(4.0625rem, 30vw, 7.5rem);
     color: var(--sky);
     line-height: 1.2;
     text-shadow: 4px 4px 5px var(--galaxy);
