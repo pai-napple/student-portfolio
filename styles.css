@@ -387,41 +387,26 @@ header::before {
 }
 
 .namepop-content {
-    position: inherit;
-    display: flex;
-    gap: 16px;
+    position: relative;
 
     background-color: var(--sky);
     width: 100%;
     max-width: 800px;
     max-height: 90vh;
     padding: 64px 32px 32px;
+    overflow-y: auto;
     border-radius: 15px;
 
     transform: translateY(30px);
     transition: 0.3s ease;
 }
 
-.paper1,
-.paper2 {
-    flex: 1;
-    min-width: 0;
-    justify-self: center;
-}
-
-.paper3,
-.paper4 {
-    flex: 1;
-    min-width: 0;
-}
-
 .namepop-content img {
     display: block;
-    width: 100%;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     margin: 16px auto;
-    
+    padding: 20px;
 }
 
 .namepop-overlay:target .namepop-content {
