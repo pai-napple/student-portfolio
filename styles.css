@@ -403,7 +403,7 @@ header::before {
 
 .namepop-content img {
     display: block;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     margin: 16px auto;
     padding: 20px;
