@@ -177,7 +177,7 @@ header::before {
     color: var(--meteor);
     -webkit-text-stroke: 0.5px var(--galaxy);
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: normal;
     letter-spacing: 0.5px;
     margin: 10px 0;
     margin-bottom: 20px;
