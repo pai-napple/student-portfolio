@@ -386,7 +386,7 @@ header::before {
 }
 
 .namepop-content {
-    position: relative;
+    position: inherit;
     display: flex;
     gap: 16px;
 
@@ -395,7 +395,6 @@ header::before {
     max-width: 800px;
     max-height: 90vh;
     padding: 64px 32px 32px;
-    overflow-y: auto;
     border-radius: 15px;
 
     transform: translateY(30px);
@@ -406,6 +405,7 @@ header::before {
 .paper2 {
     flex: 1;
     min-width: 0;
+    justify-self: center;
 }
 
 .paper3,
