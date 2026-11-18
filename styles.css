@@ -291,7 +291,7 @@ header::before {
     color: var(--milky-way);
     margin: 0 0 12px;
     text-align: left;
-    font-weight: lighter;
+    font-weight: normal;
     padding-left: 30px;
 }
 
@@ -301,7 +301,7 @@ header::before {
     max-width: 600px;
     line-height: 1.6;
     text-align: left;
-    font-weight: normal;
+    font-weight: lighter;
     text-shadow: 4px 4px 5px var(--galaxy);
     padding-left: 30px;
 }
@@ -339,6 +339,7 @@ header::before {
     margin: 0;
     line-height: 24px;
     padding-bottom: 15px;
+    font-weight: normal;
 }
 
 .namepop {
