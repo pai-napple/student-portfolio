@@ -766,18 +766,34 @@ header::before {
   transform: translateY(0);
 }
 
-.skill-page {
-  background-image: linear-gradient(to bottom, #081f5c, #7096d1);
+.HTML,
+.CSS {
+  text-align: center;
+  color: var(--galaxy);
 }
 
-.skills {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 48px 24px;
-  font-family: Impact, sans-serif;
-  column-gap: 48px;
-  row-gap: 16px;
-  align-items: center;
+.HTML h2,
+.CSS h2 {
+  margin: 20px 0 8px;
+  font-size: 20px;
+}
+
+.social-link:focus-visible,
+.certificate-button:focus-visible,
+.project-link:focus-visible,
+.tuplok:focus-visible,
+.tuplok2:focus-visible,
+.namepop:focus-visible,
+.orgpop:focus-visible,
+.coursepop:focus-visible,
+.ciscopop:focus-visible,
+.close:focus-visible {
+  outline: 3px solid var(--milky-way);
+  outline-offset: 4px;
+}
+
+.skill-page {
+  background-image: linear-gradient(to bottom, #081f5c, #7096d1);
 }
 
 .skills-main {
@@ -878,7 +894,7 @@ header::before {
   color: white;
   font-size: 25px;
   margin-bottom: 5px;
-}
+} 
 
 .certificate-strip {
   display: flex;
@@ -1139,50 +1155,10 @@ footer {
   font-weight: lighter;
 }
 
-.skills-grid,
-.projects-grid,
-.contact-grid {
+.projects-grid {
   display: grid;
   gap: 24px;
-}
-
-.skills-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.projects-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.contact-grid {
-  grid-template-columns: 0.9fr 1.1fr;
-  align-items: start;
-}
-
-.skill-card,
-.project-card,
-.contact-card,
-.contact-form {
-  background: rgba(208, 227, 255, 0.9);
-  border: 2px solid rgba(112, 150, 209, 0.9);
-  border-radius: 18px;
-  padding: 28px;
-  box-shadow: 0 10px 25px rgba(8, 31, 92, 0.15);
-}
-
-.skill-card h3,
-.project-card h3,
-.contact-card h3 {
-  font-size: 24px;
-  color: var(--galaxy);
-  margin-bottom: 14px;
-}
-
-.skill-card ul {
-  list-style: disc;
-  padding-left: 20px;
-  color: #213d73;
-  line-height: 1.8;
 }
 
 .project-tag {
@@ -1194,57 +1170,6 @@ footer {
   font-size: 12px;
   margin-bottom: 14px;
   letter-spacing: 0.8px;
-}
-
-.project-card p,
-.contact-card p {
-  color: #203a72;
-  line-height: 1.7;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-
-.contact-form label {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  color: var(--galaxy);
-  font-size: 15px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  border: 1px solid rgba(8, 31, 92, 0.3);
-  border-radius: 10px;
-  padding: 12px 14px;
-  background: #f9fbff;
-  font: inherit;
-  resize: vertical;
-  min-height: 52px;
-}
-
-.contact-form textarea {
-  min-height: 110px;
-}
-
-.contact-form button {
-  border: none;
-  border-radius: 10px;
-  background: var(--galaxy);
-  color: white;
-  font: inherit;
-  padding: 14px 20px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.contact-form button:hover {
-  background: #1b2d65;
-  transform: translateY(-2px);
 }
 
 .skill-page,
@@ -1271,14 +1196,8 @@ footer {
     align-items: center;
   }
 
-  .skills-grid,
-  .projects-grid,
-  .contact-grid {
+  .projects-grid {
     grid-template-columns: 1fr;
-  }
-
-  .contact-grid {
-    align-items: stretch;
   }
   .balay {
     flex-direction: column;
@@ -1334,17 +1253,6 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .footer-main {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 600px) {
   .footer-main {
     grid-template-columns: 1fr;
     gap: 24px;
